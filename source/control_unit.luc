@@ -1,7 +1,7 @@
 /******************************************************************************
 
-   control_unit: This module will perform signed addition or subtraction on two inputs
-   and output the result along with zero, signed overflow and negative bits.
+   control_unit: Receives event flags and generates control signals
+   according to FSM logic.
    
 ******************************************************************************/
 module control_unit (
